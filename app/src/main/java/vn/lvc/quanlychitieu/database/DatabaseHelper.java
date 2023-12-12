@@ -51,7 +51,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL("Drop table if exists " + UserEntry.TABLE_NAME);
         onCreate(sqLiteDatabase);
     }
-    public static final int DATABASE_VERSION = 5;
+    public static final int DATABASE_VERSION = 6;
 
     /* Inner class that defines the table contents */
     public static class UserEntry implements BaseColumns {
